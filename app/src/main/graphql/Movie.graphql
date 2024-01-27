@@ -1,0 +1,12 @@
+query Movie($filmId: ID) {
+    film(id: $filmId) {
+        characterConnection {
+            characters {
+                name
+                id
+                skinColor
+                birthYear
+            }
+        }
+    }
+}

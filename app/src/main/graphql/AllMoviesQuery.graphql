@@ -1,0 +1,10 @@
+query AllMovies {
+    allFilms {
+        films {
+            id
+            title
+            director
+            releaseDate
+        }
+    }
+}
